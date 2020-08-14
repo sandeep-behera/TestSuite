@@ -1,0 +1,108 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7108541200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate Login Functionality",
+        "description": "",
+        "id": "testing-to-validate-login;validate-login-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 1534663900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeApp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9096612000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to the website \"URL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginAppSteps.user_navigates_to_the_website(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4540706200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "there user logs in through Login Window by using Username as \"USER\" and Password as \"PASSWORD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "USER",
+                  "offset": 62
+                },
+                {
+                  "val": "PASSWORD",
+                  "offset": 85
+                }
+              ],
+              "location": "LoginAppSteps.there_user_logs_in_through_Login_Window_by_using_Username_as_and_Password_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login must be successful.",
+            "match": {
+              "location": "LoginAppSteps.login_must_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Login-positive"
+          }
+        ]
+      }
+    ],
+    "name": "Testing to validate Login",
+    "description": "",
+    "id": "testing-to-validate-login",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login-Application"
+      }
+    ]
+  }
+]
